@@ -45,7 +45,7 @@ rv.linear().setup {
     /**
      * 当拖拽动作完成且松开手指时触发
      */
-    open fun onDrag(
+    override fun onDrag(
         source: BindingAdapter.BindingViewHolder,
         target: BindingAdapter.BindingViewHolder
     ) {
